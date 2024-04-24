@@ -211,7 +211,7 @@ jet_data = {
     "windowColor": "#5234a2",
     "containerColor": "#70479a",
     "innerWindowColor": "#5142c2",
-    "bannerImageUrl": "https://i.imgur.com/s6AOv56.png",
+    "bannerImageUrl": "https://i.imgur.com/MwEGX3a.png",
     "backgroundImageUrl": "https://i.imgur.com/PQKkYfP.jpeg",
     "endingTextColor": "#000000",
     "customQuote": ""
@@ -231,7 +231,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#70479a";
 
-document.getElementById("header").src = "https://i.imgur.com/s6AOv56.png";
+document.getElementById("header").src = "https://i.imgur.com/MwEGX3a.png";
 
 document.body.background = "https://i.imgur.com/PQKkYfP.jpeg";
 
