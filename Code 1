@@ -45,8 +45,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 92,
         "fields": {
-            "first_name": "Dan Quayle",
-            "last_name": "Ford",
+            "first_name": "Dan ",
+            "last_name": "Quayle",
             "election": 10,
             "party": "Republican",
             "state": "Michigan",
