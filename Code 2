@@ -4612,7 +4612,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 240,
-            "state_multiplier": 0.75
+            "state_multiplier": 0.7
         }
     },
     {
@@ -4693,7 +4693,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 249,
-            "state_multiplier": 0.8
+            "state_multiplier": 0.75
         }
     },
     {
@@ -5026,7 +5026,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 235,
-            "state_multiplier": 0.725
+            "state_multiplier": 0.625
         }
     },
     {
@@ -5071,7 +5071,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 240,
-            "state_multiplier": 0.7633
+            "state_multiplier": 0.6633
         }
     },
     {
@@ -5080,7 +5080,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 241,
-            "state_multiplier": 0.7925
+            "state_multiplier": 0.6925
         }
     },
     {
@@ -5143,7 +5143,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 248,
-            "state_multiplier": 0.75
+            "state_multiplier": 0.66
         }
     },
     {
@@ -5152,7 +5152,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 249,
-            "state_multiplier": 0.771
+            "state_multiplier": 0.671
         }
     },
     {
@@ -5287,7 +5287,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 264,
-            "state_multiplier": 0.85
+            "state_multiplier": 0.79
         }
     },
     {
@@ -5377,7 +5377,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 274,
-            "state_multiplier": 0.83
+            "state_multiplier": 0.73
         }
     },
     {
@@ -5404,7 +5404,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 277,
-            "state_multiplier": 0.63
+            "state_multiplier": 0.6
         }
     },
     {
@@ -8787,7 +8787,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 <p>That went over better than we thought.</p>
 <p>Sharon comes into your Office while you’re making Phone Calls and writing thank you letters to all your constituents and proud Endorsees. She begins to go on about getting the American Press in for a victory speech and addressing the Nation as the President-Elect. You agree to this plan and several days later in a Televised Conference on the Hill, you begin to speak to the Nation.</p><p>“My Fellow Americans, today, America has decided on change for a nation that has lacked it for 16 long years.” You start, taking a short breath and beginning again. “As our country braces a new era of Politics, we all must prepare for a new challenge of New Idealism and what many believe as the end of an Era…”</p><p>Those words would go on to echo for a Generation.</p>`;
     }
-    if(quickstats[0] > 269) {
+    if(quickstats[0] == 269) {
         setImage("https://i.imgur.com/bqnHgaa.png");
         return `<h3>THE SKIN OF OUR TEETH.</h3>
 <p>Life feels so much after a long job, huh?</p>
