@@ -6499,18 +6499,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 3591,
             "candidate": 91,
-            "affected_candidate": 92,
+            "affected_candidate": 91,
             "global_multiplier": 0.016
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1362,
-        "fields": {
-            "answer": 3591,
-            "candidate": 91,
-            "affected_candidate": 93,
-            "global_multiplier": 0.05
         }
     },
     {
@@ -6580,7 +6570,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3604,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.05
+            "global_multiplier": -0.05
         }
     },
     {
@@ -6650,7 +6640,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3639,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.04
+            "global_multiplier": -0.04
         }
     },
     {
@@ -6711,16 +6701,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 91,
             "affected_candidate": 91,
             "global_multiplier": 0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1441,
-        "fields": {
-            "answer": 3591,
-            "candidate": 92,
-            "affected_candidate": 92,
-            "global_multiplier": -0.007
         }
     },
     {
@@ -7078,9 +7058,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 12841,
         "fields": {
             "answer": 3641,
-            "candidate": 93,
+            "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.01
         }
     },
     {
@@ -7102,6 +7082,26 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 91,
             "global_multiplier": 0.002
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12878,
+        "fields": {
+            "answer": 3606,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12879,
+        "fields": {
+            "answer": 3641,
+            "candidate": 93,
+            "affected_candidate": 93,
+            "global_multiplier": 0.03
+        }
     }
 ]
 
@@ -7113,26 +7113,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3526,
             "issue": 36,
             "issue_score": -0.15,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1159,
-        "fields": {
-            "answer": 3588,
-            "issue": 35,
-            "issue_score": 0.75,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1160,
-        "fields": {
-            "answer": 3591,
-            "issue": 35,
-            "issue_score": -0.6,
             "issue_importance": 1
         }
     },
@@ -7164,16 +7144,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 34,
             "issue_score": -0.29,
             "issue_importance": 7
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1176,
-        "fields": {
-            "answer": 3606,
-            "issue": 33,
-            "issue_score": 0.3,
-            "issue_importance": 5
         }
     },
     {
@@ -7242,7 +7212,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 3652,
             "issue": 32,
-            "issue_score": 0.35,
+            "issue_score": 0.05,
             "issue_importance": 1
         }
     },
@@ -8857,7 +8827,7 @@ campaignTrail_temp.jet_data = [{
             "value": 0,
             "endingImage": "https://i.imgur.com/bqnHgaa.png",
             "endingText": "<h3>THE SKIN OF OUR TEETH.</h3>\n<p>Life feels so much after a long job, huh?</p>\n<p>Fighting the long fight has worked the energy out of you and your family but through thick and thin, failure and victory. Your fight for the Presidency is over and it’s won. A newly vindicated and rejuvenated Democratic Party has gotten a fresh slate with a West Virginian figure and an ideal for both a new Tomorrow and a New America.</p><p>While the House is divided, hanging onto their Democratic Majority by small margins, the Senate is yours for the use. Dan Quayle calls your office later that night and goes over the whole Concession shtick and all about what comes next. The Office you once used to sit and work at feels emptier as if a whole new feeling has come to to what you held dear.</p><p>Saddle up Jay, you got a whole 4 years on the table.</p>",
-            "amount": "270"
+            "amount": "269"
         },
         "1715958241847": {
             "id": 1715958241847,
@@ -8866,7 +8836,7 @@ campaignTrail_temp.jet_data = [{
             "value": 0,
             "endingImage": "https://i.imgur.com/2l1rXJD.png",
             "endingText": "<h3>ALONE ON THE HILL.</h3>\n<p>Nobody saw this coming out of anywhere.</p>\n<p>With both the House and Senate slipping out of the Democratic Party’s hands, the Election now going to the Congress hasn’t happened since 1824 and the era of the Federalists and Jacksonians. With a divided Congress and President Bush making moves to secure Quayle the Presidency, this is the end of the road for our chance at the Presidency.</p><p>You fought hard, made many new friends and allies along the way and have strengthened what it means to be a Rockefeller. You’ve shaped the Party in a way that hasn’t been seen since the end of the New Deal coalition and brought what many think was the end of Bipartisanship in the Party back to the Forefront of American Politics.</p><p>Who knows what happens next? 2000 could be an opening for you.</p>",
-            "amount": "269"
+            "amount": "270"
         },
         "1715958419067": {
             "id": 1715958419067,
