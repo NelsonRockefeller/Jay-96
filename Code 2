@@ -4981,7 +4981,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 281,
-            "state_multiplier": 0.9
+            "state_multiplier": 0.93
         }
     },
     {
@@ -5125,7 +5125,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 246,
-            "state_multiplier": 0.7075
+            "state_multiplier": 0.8075
         }
     },
     {
@@ -5305,7 +5305,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 266,
-            "state_multiplier": 0.795
+            "state_multiplier": 0.895
         }
     },
     {
@@ -5440,7 +5440,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 281,
-            "state_multiplier": 0.703
+            "state_multiplier": 0.803
         }
     },
     {
@@ -8787,13 +8787,13 @@ endingPicker = (out, totv, aa, quickstats) => {
 <p>That went over better than we thought.</p>
 <p>Sharon comes into your Office while you’re making Phone Calls and writing thank you letters to all your constituents and proud Endorsees. She begins to go on about getting the American Press in for a victory speech and addressing the Nation as the President-Elect. You agree to this plan and several days later in a Televised Conference on the Hill, you begin to speak to the Nation.</p><p>“My Fellow Americans, today, America has decided on change for a nation that has lacked it for 16 long years.” You start, taking a short breath and beginning again. “As our country braces a new era of Politics, we all must prepare for a new challenge of New Idealism and what many believe as the end of an Era…”</p><p>Those words would go on to echo for a Generation.</p>`;
     }
-    if(quickstats[0] == 269) {
+    if(quickstats[0] > 269) {
         setImage("https://i.imgur.com/bqnHgaa.png");
         return `<h3>THE SKIN OF OUR TEETH.</h3>
 <p>Life feels so much after a long job, huh?</p>
 <p>Fighting the long fight has worked the energy out of you and your family but through thick and thin, failure and victory. Your fight for the Presidency is over and it’s won. A newly vindicated and rejuvenated Democratic Party has gotten a fresh slate with a West Virginian figure and an ideal for both a new Tomorrow and a New America.</p><p>While the House is divided, hanging onto their Democratic Majority by small margins, the Senate is yours for the use. Dan Quayle calls your office later that night and goes over the whole Concession shtick and all about what comes next. The Office you once used to sit and work at feels emptier as if a whole new feeling has come to to what you held dear.</p><p>Saddle up Jay, you got a whole 4 years on the table.</p>`;
     }
-    if(quickstats[0] == 269) {
+    if(quickstats[0] == 270) {
         setImage("https://i.imgur.com/2l1rXJD.png");
         return `<h3>ALONE ON THE HILL.</h3>
 <p>Nobody saw this coming out of anywhere.</p>
@@ -8857,7 +8857,7 @@ campaignTrail_temp.jet_data = [{
             "value": 0,
             "endingImage": "https://i.imgur.com/bqnHgaa.png",
             "endingText": "<h3>THE SKIN OF OUR TEETH.</h3>\n<p>Life feels so much after a long job, huh?</p>\n<p>Fighting the long fight has worked the energy out of you and your family but through thick and thin, failure and victory. Your fight for the Presidency is over and it’s won. A newly vindicated and rejuvenated Democratic Party has gotten a fresh slate with a West Virginian figure and an ideal for both a new Tomorrow and a New America.</p><p>While the House is divided, hanging onto their Democratic Majority by small margins, the Senate is yours for the use. Dan Quayle calls your office later that night and goes over the whole Concession shtick and all about what comes next. The Office you once used to sit and work at feels emptier as if a whole new feeling has come to to what you held dear.</p><p>Saddle up Jay, you got a whole 4 years on the table.</p>",
-            "amount": "269"
+            "amount": "270"
         },
         "1715958241847": {
             "id": 1715958241847,
