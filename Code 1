@@ -1,3 +1,4 @@
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -146,7 +147,7 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "TheMarylandCowboy(Writer) and LiterallyNelsonRockefeller(OkToe2051)(Coder), Banner made by Script1776, music box from 2000N."
+campaignTrail_temp.credits = "TheMarylandCowboy(Writer) and LiterallyNelsonRockefeller(OkToe2051)(Coder), Banner made by Script1776"
 
 campaignTrail_temp.global_parameter_json = [
     {
@@ -238,48 +239,6 @@ document.body.background = "https://i.imgur.com/PQKkYfP.jpeg";
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#41409c!important;}</style>";
 
 //#endcode
-
-
-bannerlist=["https://i.imgur.com/GAAJ9rP.jpeg", "https://i.imgur.com/YuFjvkW.jpeg", "https://i.imgur.com/tXmb6RP.jpeg", "https://i.imgur.com/tHWsfpy.jpeg", "https://i.imgur.com/tHWsfpy.jpeg", "https://i.imgur.com/coHtirn.jpeg"]
-document.getElementById("header").src = bannerlist[Math.floor((Math.random() * bannerlist.length))]
-
-  bannerArr=0
-
-
-  var changeBanner = () =>
-{
-bannerArr+=1
-document.getElementById("header").src=bannerlist[bannerArr % bannerlist.length]
-}
-document.getElementById("header").src=bannerlist[0]
-footer = $(".footer")[0]
-var button = document.createElement("button") // <button onclick="changeBanner()" style="font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;">Change banner</button>
-button.style = `font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;`
-button.innerHTML = "Change banner"
-footer.insertBefore(button, footer.firstChild);
-button.onclick = changeBanner;
-
-//#endcode
-
-bannerlist=["https://i.imgur.com/GAAJ9rP.jpeg", "https://i.imgur.com/YuFjvkW.jpeg", "https://i.imgur.com/tXmb6RP.jpeg", "https://i.imgur.com/tHWsfpy.jpeg", "https://i.imgur.com/tHWsfpy.jpeg", "https://i.imgur.com/coHtirn.jpeg"]
-document.getElementById("header").src = bannerlist[Math.floor((Math.random() * bannerlist.length))]
-
-  bannerArr=0
-
-
-  var changeBanner = () =>
-{
-bannerArr+=1
-document.getElementById("header").src=bannerlist[bannerArr % bannerlist.length]
-}
-document.getElementById("header").src=bannerlist[0]
-footer = $(".footer")[0]
-var button = document.createElement("button") // <button onclick="changeBanner()" style="font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;">Change banner</button>
-button.style = `font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;`
-button.innerHTML = "Change banner"
-footer.insertBefore(button, footer.firstChild);
-button.onclick = changeBanner;
-
 // Soundtrack
 
 // Initialise custom music
@@ -492,128 +451,37 @@ clamp = function(a, max, min, overflow=true) {
 
 var soundtracks = {
   0: {
-    name: "Goldwater",
+    name: "Jay!",
     tracklist: [
       {
-        "name": "The Beach Boys - I Get Around",
-        "url": "https://od.lk/s/OThfMzk2NjgwOTFf/I%20get%20Around.mp3"
-      },
-      {
-        "name": "The Beach Boys - Barbara Ann",
-        "url": "https://od.lk/s/OThfMzk2NjgxMTdf/barba%20ann.mp3"
-      },
-      {
-        "name": "Buffalo Springfield - For What It's Worth",
-        "url": "https://od.lk/s/OThfMzk2NjgxMjVf/what%20worth.mp3"
-      },
-      {
-        "name": "Bobby Darin - Call Me Irresponsible",
-        "url": "https://od.lk/s/OThfMzk2NjgxMjFf/irresponsible.mp3"
-      },
-      {
-        "name": "The Rolling Stones - Gimme Shelter",
-        "url": "https://od.lk/s/OThfMzk2NjgxMDNf/Gimme%20shelter.mp3"
+        "name": "John Denver - Take Me Home, Country Roads",
+        "url": "https://od.lk/s/OThfMzk2Nzg5ODhf/Countr%20roads.mp3"
       }
     ]
   },
   1: {
-    name: "Rockefeller",
+    name: "90sjig",
     tracklist: [
       {
-        "name": "Build Me Up Buttercup-The Foundations",
-        "url": "https://od.lk/s/OThfMzk2NjgxMDFf/Butter%20cup.mp3"
+        "name": "M.C. Hammer - U Can't Touch This",
+        "url": "https://od.lk/s/OThfMzk2Nzg5ODdf/cant%20touch%20this.mp3"
       },
       {
-        "name": "Dion - The Wanderer",
-        "url": "https://od.lk/s/OThfMzk2NjgxMDVf/Wanderer.mp3"
+        "name": "Spice Girls - Wannabe",
+        "url": "https://od.lk/s/OThfMzk2Nzg5OTFf/wannabe.mp3"
       },
      {
-        "name": "Pete Seeger - Which Side Are You On",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/whichsideareyouon.ogg"
+        "name": "Coolio - Gangsta's Paradise",
+        "url": "https://od.lk/s/OThfMzk2Nzg5OTBf/gangstah%20para.mp3"
       },
       {
-        "name": "San Francisco - Scott McKenzie",
-        "url": "https://od.lk/s/OThfMzk2NjgxMjNf/San%20fran.mp3"
+        "name": "Nirvana - Smells Like Teen Spirit",
+        "url": "https://od.lk/s/OThfMzk2Nzg5OTJf/smeells%20like%20spirit.mp3"
       },
       {
-        "name": "David Bowie Space Oddity",
-        "url": "https://od.lk/s/OThfMzk2NjgxMTFf/major%20tom.mp3"
+        "name": "Radiohead - Creep",
+        "url": "https://od.lk/s/OThfMzk2Nzg5ODlf/creep.mp3"
       }
-    ]
-  },
-  2: {
-    name: "Smith",
-    tracklist: [
-      {
-        "name": "The Ronettes - Be My Baby",
-        "url": "https://od.lk/s/OThfMzk2NjgxMThf/be%20my%20baby.mp3"
-      },
-      {
-        "name": "Julie Rogers - The Wedding",
-        "url": "https://od.lk/s/OThfMzk2NjgxMjRf/The%20wedding.mp3"
-      },
-      {
-        "name": "Lulu - To Sir With Love",
-        "url": "https://od.lk/s/OThfMzk2NjgxMjJf/Lulu.mp3"
-      },
-      {
-        "name": "Pete Seeger - Which Side Are You On",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/whichsideareyouon.ogg"
-      },
-      {
-        "name": "Prince And The Revolution - Lets Go Crazy",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/princeletsgocrazy.mp3"
-      }
-    ]
-  },
-  3: {
-    name: "Lodge",
-    tracklist: [
-      {
-        "name": "The Rolling Stones - Paint It, Black",
-        "url": "https://od.lk/s/OThfMzk2NjgxMDRf/paint%20black.mp3"
-      },
-      {
-        "name": "O\Malley\s March - Murshin Durkin",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/murshindurkin.ogg"
-      },
-      {
-        "name": "Mason Williams - Classical Gas",
-        "url": "https://od.lk/s/OThfMzk2NjgxMjBf/chem%20gas.mp3"
-      },
-      {
-        "name": "O\Malley\s March - Down by the Glenside",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/downbytheglenside.ogg"
-      },
-      {
-        "name": "O\Malley\s March - Breastplate of St. Patrick",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/breatplateofstpatrick.ogg"
-      }
-    ]
-  },
-  4: {
-    name: "Nixon",
-    tracklist: [
-      {
-        "name": "The Mamas & The Papas - California Dreamin'",
-        "url": "https://od.lk/s/OThfMzk2NjgxMTlf/cali%20dreamin.mp3"
-      },
-      {
-        "name": "Kinetosis - I Hate Ted Cruz (G Funk Remix)",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/ihatetedcruz.wav"
-      },
-      {
-        "name": "Kinetosis - This Is An Artistic Choice",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/artistichoice.wav"
-      },
-      {
-        "name": "Kinetosis - Fall On Me",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/fallonme.wav"
-      },
-      {
-        "name": "Kinetosis - Porkimus Minimus",
-        "url": "https://itsastronomical.com/assets/2016DNC/music/porkimusminimus.wav"
-      },
     ]
   }
 }
