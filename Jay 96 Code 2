@@ -6430,7 +6430,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3512,
             "candidate": 91,
             "affected_candidate": 92,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.03
         }
     },
     {
@@ -6510,7 +6510,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3594,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.009
+            "global_multiplier": 0.005
         }
     },
     {
@@ -6570,7 +6570,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3604,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.05
+            "global_multiplier": 0.01
         }
     },
     {
@@ -6710,7 +6710,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3592,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.006
         }
     },
     {
@@ -6820,7 +6820,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3593,
             "candidate": 92,
             "affected_candidate": 92,
-            "global_multiplier": 0.008
+            "global_multiplier": -0.012
         }
     },
     {
@@ -8816,7 +8816,7 @@ campaignTrail_temp.jet_data = [{
             "value": 0,
             "endingImage": "https://i.imgur.com/2l1rXJD.png",
             "endingText": "<h3>ALONE ON THE HILL.</h3>\n<p>Nobody saw this coming out of anywhere.</p>\n<p>With both the House and Senate slipping out of the Democratic Party’s hands, the Election now going to the Congress hasn’t happened since 1824 and the era of the Federalists and Jacksonians. With a divided Congress and President Bush making moves to secure Quayle the Presidency, this is the end of the road for our chance at the Presidency.</p><p>You fought hard, made many new friends and allies along the way and have strengthened what it means to be a Rockefeller. You’ve shaped the Party in a way that hasn’t been seen since the end of the New Deal coalition and brought what many think was the end of Bipartisanship in the Party back to the Forefront of American Politics.</p><p>Who knows what happens next? 2000 could be an opening for you.</p>",
-            "amount": "269"
+            "amount": "270"
         },
         "1715958419067": {
             "id": 1715958419067,
